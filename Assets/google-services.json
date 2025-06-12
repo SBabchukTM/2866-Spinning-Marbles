@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "284199935297",
+    "project_id": "spinning-marbles",
+    "storage_bucket": "spinning-marbles.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:284199935297:android:bdd0d6602c884ef90215c0",
+        "android_client_info": {
+          "package_name": "com.staatscar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEhCNV6h_nMA_3S-Lu2lQl2qVL8xjN_fA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

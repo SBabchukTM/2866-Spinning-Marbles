@@ -22,7 +22,7 @@ namespace Runtime.Gameplay.Services.UserData
 #if DEV
             _userData = _persistentDataProvider.LoadData<Data.UserData>(ConstDataPath.UserDataPath, ConstDataPath.UserDataFileName) ?? new Data.UserData();
 #else
-            _userData = _persistentDataProvider.LoadData<UserData>(ConstDataPath.UserDataPath, ConstDataPath.UserDataFileName,null, _compressor) ?? new UserData();
+            _userData = _persistentDataProvider.LoadData<Data.UserData>(ConstDataPath.UserDataPath, ConstDataPath.UserDataFileName,null, _compressor) ?? new Data.UserData();
 #endif
         }
 
